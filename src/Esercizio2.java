@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Esercizio2 {
 
-    public static void main() {
+    public static void esercizio2() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Inserisci la prima stringa: ");
         String a = scanner.nextLine();
@@ -12,8 +12,13 @@ public class Esercizio2 {
         String c = scanner.nextLine();
         System.out.println("Concatenazione: " + a + b + c);
 
-        System.out.println("Stringhe in ordine " + a + " " + b + " " + c);
-        System.out.println("Stringhe in ordine inverso " + c + " " + b + " " + a);
+        System.out.println("Stringhe in ordine => " + a + " " + b + " " + c);
+        System.out.println("Stringhe in ordine inverso => " + c + " " + b + " " + a);
+    }
+
+    public static void main(String[] args) {
+
+        esercizio2();
     }
 }
 

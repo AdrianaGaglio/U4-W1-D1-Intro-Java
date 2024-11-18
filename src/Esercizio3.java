@@ -26,4 +26,18 @@ public class Esercizio3 {
 
         return Math.sqrt(semiPer * (semiPer - lato1) * (semiPer - lato2) * (semiPer - lato3)) ;
     }
+
+    public static void main(String[] args) {
+        double n1 = 0.2;
+        double n2 = 0.5;
+        System.out.println("Perimetro rettangolo: " + perimetroRettangolo(n1,n2));
+
+        int n3 = 3;
+        System.out.println("Numero dispari: " + pariDispari(n3));
+        int n4 = 4;
+        System.out.println("Numero pari: " + pariDispari(n4));
+
+        System.out.println("Area triangolo: " + perimetroTriangolo());
+
+    }
 }
